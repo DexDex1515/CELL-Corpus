@@ -20,7 +20,7 @@ class HomeView(generic.ListView):
         return ""
 
 class IndexView(generic.ListView):
-    template_name = 'corpusapp/index.html'
+    template_name = 'concordance/index.html'
     def get_queryset(self):
         return ""
 
