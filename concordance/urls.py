@@ -6,6 +6,5 @@ from . import views
 app_name = 'concordance'
 
 urlpatterns = [
-    #/corpusapp/
     url(r'^$', views.IndexView.as_view(), name="index"),
 ]
