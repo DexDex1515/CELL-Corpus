@@ -15,7 +15,7 @@ from nltk import FreqDist
 
 
 class HomeView(generic.ListView):
-    template_name = 'corpusapp/home.html'
+    template_name = 'concordance/home.html'
     def get_queryset(self):
         return ""
 
