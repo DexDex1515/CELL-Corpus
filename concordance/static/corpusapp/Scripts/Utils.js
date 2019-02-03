@@ -1,6 +1,6 @@
 
 // Local machine
-var baseURL = "http://localhost:8000/";
+var baseURL = "http://localhost:80/";
 // Production machine
 //var baseURL = "http://142.93.188.20:8000/";
 
