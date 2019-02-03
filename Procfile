@@ -1,1 +1,1 @@
-web: gunicorn LearnerCorpus.wsgi
+web: gunicorn CELLCorpus.wsgi

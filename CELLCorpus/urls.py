@@ -1,4 +1,4 @@
-"""LearnerCorpus URL Configuration
+"""CELLCorpus URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.1/topics/http/urls/
@@ -24,7 +24,7 @@ from concordance import views
 urlpatterns = [
     url(r'^$', views.HomeView.as_view()),
     url(r'^admin/', admin.site.urls),
-    url(r'^corpus/index', include('concordance.urls')),
+    url(r'^concordance', include('concordance.urls')),
     url(r'^viewConcordance/', views.ConcordanceList.as_view()),
     url(r'^viewFrequency/', views.FrequencyList.as_view()),
 ]
