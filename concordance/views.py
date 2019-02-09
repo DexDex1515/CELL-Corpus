@@ -34,7 +34,7 @@ class ConcordanceList(APIView):
         corpusFileRead = corpusFile.read()
         # ftext1 = corpusFileRead.split()
         abst = Text(corpusFileRead.split())
-        result = (abst.concordance(str(request.GET.get('param'))))
+        result = (abst.concordance_list(str(request.GET.get('param'))))
         return Response(result)
 
     def post(self):
